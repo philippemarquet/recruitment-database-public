@@ -1,0 +1,10 @@
+project_id = "pvlowtgvkkpwepvzhaox"
+
+[functions.user-management]
+verify_jwt = true
+
+[functions.send-email]
+verify_jwt = false
+
+[functions.process-pending-emails]
+verify_jwt = false
